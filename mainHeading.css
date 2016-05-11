@@ -1,0 +1,48 @@
+@import "compass/css3";
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 304px;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.picture {
+  width: 400px;
+  position: relative;
+  float: left;
+  margin: 0 -10px;
+}
+
+.hook {
+  width: 4px;
+  height: 4px;
+  background-color: #5c5c5d;
+  margin: 0 auto 32px auto;
+  border-radius: 10%;
+  box-shadow: 0 1px 0 1px #a49c7c;
+}
+
+.frame {
+  height: 120px;
+  border-top: 6px solid #b89675;
+  border-right: 6px solid #7b654f;
+  border-bottom: 6px solid #7b654f;
+  border-left: 6px solid #a67c52;
+  box-shadow: 4px 4px 0 0 rgba(189,166,72,0.6);
+  z-index: 1;
+}
+
+.inside {
+  height: 108px;
+  background: linear-gradient(149deg, #d3d4d5 0%,#d3d4d5 50%,#ccc 51%,#ccc 100%);
+  border: 10px solid #fff;
+  box-shadow: 1px 1px 1px 1px rgba(189,193,194,0.3) inset;
+}

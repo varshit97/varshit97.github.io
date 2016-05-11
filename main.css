@@ -1,4 +1,28 @@
 .backgroundGradient{
   height: 400px;
-  background: -moz-linear-gradient(180deg, #50C9C3, #96DEDA);
+  background: -moz-linear-gradient(180deg, #50C9C3, #24C6DC);
+}
+
+@font-face {
+    font-family: headingFont;
+    src: url(Fonts/Precious.ttf);
+}
+
+.heading{
+  font-family: headingFont;
+  font-size: 50px;
+  /*color: #3333cc;*/
+}
+
+.headingDiv{
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.dummyDiv{
+  background-color: #0000cc;
+  width: 193vh;
+  height: 10px;
 }
