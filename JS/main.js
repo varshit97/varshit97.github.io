@@ -1,7 +1,8 @@
 function animateHeading(jQuery){
   console.log('called');
   var id = '.wrapper';
-  $(id).slideDown(4000);
+  $(id).slideDown(3000);
+  $('div.inside').html("My Website").slideDown();
 }
 
 $(document).ready(animateHeading);
