@@ -1,23 +1,20 @@
 @import "compass/css3";
 
-* {
-  box-sizing: border-box;
-}
-
 .wrapper {
   margin: 0 auto;
   padding: 0px;
   width: 450px;
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
 
 .wrapper {
   padding: 30px;
   display: none;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .picture {
@@ -36,6 +33,18 @@
   box-shadow: 0 1px 0 1px #a49c7c;
 }
 
+.hook:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a49c7c;
+  position: absolute;
+  left: 178px;
+  top: 13px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
 .frame {
   height: 120px;
   border-top: 6px solid #b89675;
@@ -47,7 +56,7 @@
 }
 
 .inside {
-  height: 108px;
+  height: 100px;
   background: linear-gradient(149deg, #d3d4d5 0%,#d3d4d5 50%,#ccc 51%,#ccc 100%);
   border: 10px solid #fff;
   box-shadow: 1px 1px 1px 1px rgba(189,193,194,0.3) inset;

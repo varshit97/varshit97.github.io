@@ -1,6 +1,6 @@
 function animateHeading(jQuery){
   console.log('called');
-  var id='#mainFrame';
+  var id = '.wrapper';
   $(id).slideDown(4000);
 }
 
