@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: headingFont;
-    src: url(Fonts/Precious.ttf);
+    src: url(../Fonts/Precious.ttf);
 }
 
 .heading{
   font-family: headingFont;
-  font-size: 50px;
+  font-size: 60px;
   /*color: #3333cc;*/
 }
 

@@ -6,7 +6,8 @@
 
 .wrapper {
   margin: 0 auto;
-  width: 304px;
+  padding: 0px;
+  width: 450px;
   &:after {
     content: "";
     display: table;
@@ -14,11 +15,16 @@
   }
 }
 
+.wrapper {
+  padding: 30px;
+  display: none;
+}
+
 .picture {
   width: 400px;
   position: relative;
   float: left;
-  margin: 0 -10px;
+  margin: 0 -30px;
 }
 
 .hook {
