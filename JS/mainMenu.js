@@ -57,7 +57,7 @@ function animateMenu(jQuery) {
   if (!active5) {
    $('.parent2').find('.test5').css({
      'background-color': 'gray',
-     'transform': 'translate(105px,-60px)'
+     'transform': 'translate(110px,-65px)'
    });
   }
   else {
@@ -69,7 +69,7 @@ function animateMenu(jQuery) {
   if (!active6) {
    $('.parent2').find('.test6').css({
      'background-color': 'gray',
-     'transform': 'translate(-60px,105px)'
+     'transform': 'translate(-60px,110px)'
    });
   }
   else {
