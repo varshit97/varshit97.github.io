@@ -99,15 +99,15 @@
 .mask2 {
   top: 50px;
   left: 50px;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   background: darkSlateGray;
   border-radius: 50%;
   position: absolute;
   z-index: 21;
   color: white;
   text-align: center;
-  line-height: 130px;
+  line-height: 85px;
   cursor: pointer;
   position: fixed;
 }
