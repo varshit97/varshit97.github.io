@@ -22,5 +22,6 @@
 
 #testDiv {
   position: absolute;
-  top: 700px;
+  top: 50%;
+  left: 40%;
 }
