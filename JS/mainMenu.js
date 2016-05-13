@@ -2,6 +2,8 @@ var active1 = false;
 var active2 = false;
 var active3 = false;
 var active4 = false;
+var active5 = false;
+var active6 = false;
 
 function animateMenu(jQuery) {
   if (!active1) {
@@ -52,10 +54,36 @@ function animateMenu(jQuery) {
      'transform': 'none'
    });
   }
+  if (!active5) {
+   $('.parent2').find('.test5').css({
+     'background-color': 'gray',
+     'transform': 'translate(105px,-60px)'
+   });
+  }
+  else {
+   $('.parent2').find('.test5').css({
+     'background-color': 'silver',
+     'transform': 'none'
+   });
+  }
+  if (!active6) {
+   $('.parent2').find('.test6').css({
+     'background-color': 'gray',
+     'transform': 'translate(-60px,105px)'
+   });
+  }
+  else {
+   $('.parent2').find('.test6').css({
+     'background-color': 'darkGray',
+     'transform': 'none'
+   });
+  }
   active1 = !active1;
   active2 = !active2;
   active3 = !active3;
   active4 = !active4;
+  active5 = !active5;
+  active6 = !active6;
 }
 
 function activateMenu(jQuery) {
