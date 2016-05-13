@@ -19,9 +19,3 @@
   line-height: 100px;
   text-shadow: 6px -2px 3px rgba(242, 242, 242, 1);
 }
-
-#testDiv {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-}

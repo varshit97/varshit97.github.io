@@ -87,7 +87,7 @@ function animateMenu(jQuery) {
 }
 
 function activateMenu(jQuery) {
-  $('.parent2').on('mousedown touchstart',animateMenu);
+  $('.mask2').on('mousedown touchstart',animateMenu);
 }
 
 $(document).ready(activateMenu);
