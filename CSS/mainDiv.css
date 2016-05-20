@@ -19,3 +19,13 @@
    border-radius: 10px;
    box-shadow: 0 0 0 4px #0099ff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
 }
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body > .resize {
+    width: 50%;
+    height: 40%;
+}
