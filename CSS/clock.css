@@ -2,7 +2,7 @@
     width: 250px;
     padding: 10px;
 		left: 82%;
-		bottom: 35%;
+		bottom: 33%;
     position: relative;
 }
 #clock:after {
@@ -18,7 +18,7 @@
 }
 #clock .display {
     text-align: center;
-    padding: 40px 20px 20px;
+    padding: 33px 5px 20px;
     border-radius: 6px;
     position: relative;
     height: 54px;
