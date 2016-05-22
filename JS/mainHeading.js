@@ -1,7 +1,6 @@
 function animateHeading(jQuery){
   var id = '.wrapper';
-  $(id).slideDown(3000);
-  $('div.inside').html("varshit battu").slideDown();
+  $(id).effect("bounce", { times:5 }, 3000);
 }
 
 $(document).ready(animateHeading);
