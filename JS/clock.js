@@ -8,6 +8,13 @@ $(function(){
 
 	var digit_holder = clock.find('.digits');
 
+	var element = document.getElementById('clock'), style = window.getComputedStyle(element), left = style.getPropertyValue('left');
+	var style1 = window.getComputedStyle(element), width = style1.getPropertyValue('width');
+	left = left.replace('px','');
+	width = width.replace('px','');
+	var newLeft = parseInt(left) - (parseInt(width)/2);
+	$('#clock').css('left', newLeft+'px');
+
 	$.each(positions, function(){
 		if(this == ':') {
 			digit_holder.append('<div class="dots">');

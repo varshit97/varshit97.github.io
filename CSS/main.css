@@ -2,6 +2,7 @@
   height: 400px;
   /*background: -moz-linear-gradient(180deg, #50C9C3, #24C6DC);*/
   background: -moz-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
+  background: -webkit-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
 }
 
 @font-face {
