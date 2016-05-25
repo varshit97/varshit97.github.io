@@ -1,0 +1,27 @@
+.stitched {
+   position: absolute;
+   top: 30%;
+   left: 23%;
+   padding: 20px;
+   width: 10%;
+   height: 10%;
+   background: rgba(51, 173, 255,0.3);
+   color: black;
+   font-family: 'SnigletRegular';
+   font-size: 20px;
+   color: black;
+   border: 3px dashed white;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #0099ff, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-align: center;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body > .resize {
+    width: 50%;
+    height: 40%;
+}

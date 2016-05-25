@@ -9,6 +9,10 @@
     src: url(../Fonts/vagtur.ttf);
 }
 
+html {
+  overflow: hidden;
+}
+
 .heading{
   font-family: headingFont;
   font-size: 60px;
