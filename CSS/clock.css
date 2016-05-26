@@ -26,24 +26,29 @@
     height: 54px;
 }
 
+/* Outer background */
 #clock.dark {
-    background-color: #272e38;
+    /*background-color: #272e38;*/
+    background-color: #b3e0ff;
+    border-radius: 5%;
     color: #cacaca;
 }
 
 #clock.dark .digits div span {
-    background-color: #cacaca;
-    border-color: #cacaca;
+    background-color: black;
+    border-color: black;
 }
 
+/* Inner background */
 #clock.dark .display {
-    background-color: #0f1620;
+    /*background-color: #0f1620;*/
+    background-color: #80ccff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset, 0 1px 1px #2d3642;
 }
 
 #clock.dark .digits div.dots:before,
 #clock.dark .digits div.dots:after {
-    background-color: #cacaca;
+    background-color: black;
 }
 
 #clock .digits div {
@@ -316,6 +321,7 @@
 }
 
 #clock .weekdays {
+  color: black;
     font-size: 12px;
     position: absolute;
     width: 100%;
@@ -334,6 +340,7 @@
 }
 
 #clock .ampm {
+  color: black;
     position: absolute;
     bottom: 15px;
     right: 2px;
