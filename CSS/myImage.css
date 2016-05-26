@@ -21,8 +21,8 @@
   overflow: hidden;
   background: skyblue;
   border-radius: 50%;
-  right: 97%;
-  bottom: 70%;
+  margin-left: -55%;
+  bottom: 420px;
   /*-webkit-box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);*/
@@ -44,9 +44,9 @@
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-box-shadow: 1px 1px 0px skyblue, 2px 2px 0px skyblue, 3px 3px 0px skyblue;
+  /*-webkit-box-shadow: 1px 1px 0px skyblue, 2px 2px 0px skyblue, 3px 3px 0px skyblue;
   -moz-box-shadow: 1px 1px 0px skyblue, 2px 2px 0px skyblue, 3px 3px 0px skyblue;
-  box-shadow: 1px 1px 0px skyblue, 2px 2px 0px skyblue, 3px 3px 0px skyblue;
+  box-shadow: 1px 1px 0px skyblue, 2px 2px 0px skyblue, 3px 3px 0px skyblue;*/
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
