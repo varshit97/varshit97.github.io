@@ -1,12 +1,7 @@
 .wrapper {
-  margin: 0 575px;
+  margin-left: 50%;
   width: 400px;
   z-index: -1;
-}
-
-.wrapper {
-  max-height: 180px;
-  display: none;
 }
 
 .picture {
