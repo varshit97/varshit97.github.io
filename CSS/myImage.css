@@ -15,18 +15,14 @@
 
 .box {
   position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 400px;
   height: 400px;
-  bottom: 107%;
-  right: 107%;
-  margin: 5rem auto;
-  padding-left: 0px;
   overflow: hidden;
   background: skyblue;
   border-radius: 50%;
+  right: 97%;
+  bottom: 70%;
   /*-webkit-box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.2);*/
@@ -40,8 +36,8 @@
 .box:before {
   content: '';
   color: #000;
-  top: 13px;
-  right: 13px;
+  /*top: 13px;
+  right: 13px;*/
   padding: 10px;
   background: white;
   letter-spacing: 2px;
