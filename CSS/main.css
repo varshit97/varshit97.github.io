@@ -1,73 +1,72 @@
-.backgroundGradient{
-  height: 400px;
-  /*background: -moz-linear-gradient(180deg, #50C9C3, #24C6DC);*/
-  background: -moz-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
-  background: -webkit-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
-}
+.backgroundGradient {
+    height: 400px;
+    /*background: -moz-linear-gradient(180deg, #50C9C3, #24C6DC);*/
 
+    background: -moz-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
+    background: -webkit-linear-gradient(180deg, #81BAC1, #ECFFE5, #81BAC1);
+}
 @font-face {
     font-family: headingFont;
     src: url(../Fonts/vagtur.ttf);
 }
-
 html {
-  overflow: hidden;
+    overflow: hidden;
 }
+.heading {
+    font-family: headingFont;
+    font-size: 60px;
+    /*color: #3333cc;*/
 
-.heading{
-  font-family: headingFont;
-  font-size: 60px;
-  /*color: #3333cc;*/
-  height: 100px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 100px;
-  text-shadow: 6px -2px 3px rgba(242, 242, 242, 1);
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    text-shadow: 6px -2px 3px rgba(242, 242, 242, 1);
 }
-
 .hvr-radial-out {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  overflow: hidden;
-  background: black;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
-
 .hvr-radial-out:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #437070;
-  border-radius: 100%;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #437070;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
-
-.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
-  color: white;
+.hvr-radial-out:hover,
+.hvr-radial-out:focus,
+.hvr-radial-out:active {
+    color: white;
 }
-
-.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
-  -webkit-transform: scale(1);
-  transform: scale(2);
+.hvr-radial-out:hover:before,
+.hvr-radial-out:focus:before,
+.hvr-radial-out:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(2);
 }
