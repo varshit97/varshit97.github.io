@@ -1,16 +1,15 @@
 #sliderFrame,
 #sliderFrame div {
     box-sizing: content-box;
+    border-radius: 20px;
 }
 #sliderFrame {
     width: 920px;
-    margin: 0 auto;
 }
 #slider,
 #slider .sliderInner {
     width: 800px;
     height: 490px;
-    border-radius: 0px;
 }
 #slider {
     background-color: white;
