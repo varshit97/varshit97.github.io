@@ -1,1 +1,1 @@
-A website of my own
+My website
